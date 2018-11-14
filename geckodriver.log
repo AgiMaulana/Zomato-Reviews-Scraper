@@ -1,0 +1,24 @@
+1542204321458	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.i3ZrQwV5Wqa8"
+
+(firefox:7155): Gtk-WARNING **: 21:05:28.221: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:7155): Gtk-WARNING **: 21:05:28.222: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1542204332843	Marionette	INFO	Listening on port 37223
+1542204332906	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 7155, Gecko_IOThread] WARNING: pipe error (83): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 7155, Gecko_IOThread] WARNING: pipe error (69): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1542204339700	Marionette	INFO	Stopped listening on port 37223
+1542205958510	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.obXCV3kSKm6S"
+
+(firefox:13446): Gtk-WARNING **: 21:32:39.502: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:13446): Gtk-WARNING **: 21:32:39.502: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1542205963730	Marionette	INFO	Listening on port 38835
+1542205963825	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-799606957, line 83: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-799606957, line 143: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-799606957, line 143: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-799606957, line 143: unreachable code after return statement
+JavaScript error: https://www.zomato.com/id/bandung/one-eighty-coffee-dago/reviews, line 2548: SyntaxError: expected expression, got '|'
+[Parent 13446, Gecko_IOThread] WARNING: pipe error (77): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1542206003915	Marionette	INFO	Stopped listening on port 38835
