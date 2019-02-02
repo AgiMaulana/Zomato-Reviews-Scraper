@@ -4,10 +4,10 @@ import os.path
 
 def export(reviews):
     counter = 1
-    fname = 'mining/reviews_1.xlsx'
+    fname = 'reviews_1.xlsx'
     while os.path.isfile(fname):
         counter += 1
-        fname = 'mining/reviews_' + counter + '.xlsx'
+        fname = 'reviews_' + str(counter) + '.xlsx'
 
     df = pd.DataFrame(reviews)
     writer = ExcelWriter(fname)
