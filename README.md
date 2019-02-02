@@ -1,4 +1,4 @@
-# instagram-comments-scraper
+# zomato-reviews-scraper
 
 ## Install selenium
 `pip install -r requirements.txt`
@@ -14,10 +14,9 @@ Extract the binary then move to `/usr/bin/` <br />
 
 
 ## Run
-`python scraper.py post-url total-load-more-click` <br />
-Change the URL with your post target <br />
-Example : <br />
-`python scraper.py https://www.instagram.com/p/BqUfulwH6O4/ 5`
+add your target restaurant Zomato reviews page by add the URL to `urls.txt` <br />
+then <br />
+`python main.py`
 
 # Lisence
 This project is under the [MIT Lisence](https://github.com/AgiMaulana/instagram-comments-scraper/blob/master/LICENSE.md)
