@@ -1,6 +1,12 @@
 # zomato-reviews-scraper
+- Because of the XPath was invalid in several zomato page, the reviews may not fully scraped.
+- Total reviews per page are 5 reviews. The script will 'click' the load more button 20 times, of course you can change 
+it in `scraper.py` if want to scrape more reviews. 
 
-## Install selenium
+## Clone
+`git clone https://github.com/AgiMaulana/zomato-reviews-scraper/`
+
+## Install dependencies
 `pip install -r requirements.txt`
 
 ## Install Chrome Web Driver
@@ -14,7 +20,7 @@ Extract the binary then move to `/usr/bin/` <br />
 
 
 ## Run
-add your target restaurant Zomato reviews page by add the URL to `urls.txt` <br />
+add your restaurant Zomato reviews page by add the URL to `urls.txt` <br />
 then <br />
 `python main.py`
 
