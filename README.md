@@ -1,4 +1,4 @@
-# zomato-reviews-scraper
+# Zomato Reviews Scraper
 - Because of the XPath was invalid in several zomato page, the reviews may not fully scraped.
 - Total reviews per page are 5 reviews. The script will 'click' the load more button 20 times, of course you can change 
 it in `scraper.py` if want to scrape more reviews. 
